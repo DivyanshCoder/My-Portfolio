@@ -24,6 +24,14 @@ const HeroSection = () => {
       {/* Content */}
       <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div className="animate-fade-in">
+          {/* Profile Photo */}
+          <div className="mb-8">
+            <img 
+              src="/lovable-uploads/2e5c2e95-8bf1-4ed7-807a-908f7cc490da.png"
+              alt="Divyansh Patni"
+              className="w-48 h-48 md:w-56 md:h-56 rounded-full mx-auto object-cover border-4 border-white/20 shadow-2xl"
+            />
+          </div>
           <h1 className="text-5xl md:text-7xl font-bold text-white mb-6">
             Divyansh Patni
           </h1>

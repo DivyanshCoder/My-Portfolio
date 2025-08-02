@@ -97,13 +97,6 @@ const ProjectsSection = () => {
                     <Github className="h-4 w-4" />
                     View Code
                   </Button>
-                  <Button 
-                    size="sm"
-                    className="flex items-center gap-2"
-                  >
-                    <ExternalLink className="h-4 w-4" />
-                    Live Demo
-                  </Button>
                 </div>
               </CardContent>
             </Card>

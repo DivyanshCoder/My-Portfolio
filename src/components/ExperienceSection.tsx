@@ -10,12 +10,12 @@ const ExperienceSection = () => {
       period: "Dec 2023 – Present",
       location: "Pune",
       achievements: [
-        "Implemented automation with Python, SQL, PowerShell (reduced manual efforts by 40%)",
+        "Implemented automation with Python, SQL, PowerShell (reduced manual efforts by 55%)",
         "Developed Django-based web application with chatbot for Tata Motors, streamlining operations",
-        "Automated ServiceNow ticket handling with REST API integration (reduced response time by 35%)",
-        "Collaborated cross-functionally, delivered client demos"
+        "Automated ServiceNow ticket handling with REST API integration (reduced response time by 45%)",
+        "Worked closely with teams across functions and presented impactful demos to clients, ensuring alignment with their needs"
       ],
-      skills: ["Python", "SQL", "PowerShell", "REST APIs", "Django", "HTML", "CSS", "Agile"]
+      skills: ["Python", "SQL", "PowerShell", "Pandas", "Numpy", "Django", "REST APIs", "HTML", "CSS", "Agile",  "Process Automation"]
     },
     {
       title: "Software Developer Intern",
@@ -23,11 +23,11 @@ const ExperienceSection = () => {
       period: "Sep 2023 – Nov 2023",
       location: "Indore",
       achievements: [
-        "Backend development with Java, Spring Boot, REST APIs",
-        "Built CRUD functionality, integrated MySQL",
-        "Used Git, Postman for versioning and API testing"
+        "Developed backend services using Java, Spring Boot, and REST APIs, ensuring scalable and maintainable solutions",
+        "Implemented CRUD functionality and integrated with MySQL for efficient data management",
+        "Used Git and Postman, collaborated with team, and delivered client demos"
       ],
-      skills: ["Java", "Spring Boot", "SQL", "REST APIs", "HTML", "CSS", "Git", "Postman"]
+      skills: ["Java", "Spring Boot", "SQL", "REST APIs", "HTML", "CSS", "Git", "Postman", "React", "Communication"]
     }
   ];
 

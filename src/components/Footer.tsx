@@ -1,4 +1,4 @@
-import { Mail, Linkedin, Phone } from "lucide-react";
+import { Mail, Linkedin, Phone, Github, Twitter } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -19,6 +19,19 @@ const Footer = () => {
               <Mail className="h-6 w-6" />
             </a>
             <a 
+              href="tel:+919993400744"
+              className="text-background/80 hover:text-background transition-colors duration-200"
+            >
+              <Phone className="h-6 w-6" />
+            </a>
+            <a 
+              href="https://x.com/Divyansh_Patni"
+              target="_blank" 
+              className="text-background/80 hover:text-background transition-colors duration-200"
+            >
+              <Twitter className="h-6 w-6" />
+            </a>
+            <a 
               href="https://linkedin.com/in/divyanshpatni" 
               target="_blank" 
               rel="noopener noreferrer"
@@ -27,16 +40,17 @@ const Footer = () => {
               <Linkedin className="h-6 w-6" />
             </a>
             <a 
-              href="tel:+919993400744"
+              href="https://github.com/DivyanshCoder"
+              target="_blank" 
               className="text-background/80 hover:text-background transition-colors duration-200"
             >
-              <Phone className="h-6 w-6" />
+              <Github className="h-6 w-6" />
             </a>
           </div>
           
           <div className="border-t border-background/20 pt-8">
             <p className="text-background/60 text-sm">
-              © 2024 Divyansh Patni. All rights reserved.
+              © 2025 Divyansh Patni. All rights reserved.
             </p>
           </div>
         </div>

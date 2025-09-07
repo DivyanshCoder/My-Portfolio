@@ -6,7 +6,7 @@ const AboutSection = () => {
     {
       icon: <Code className="h-8 w-8 text-primary" />,
       title: "Automation Expert",
-      description: "Specialized in creating efficient automation solutions that reduce manual work by up to 40%"
+      description: "Specialized in creating efficient automation solutions that reduce manual work by up to 55%"
     },
     {
       icon: <Server className="h-8 w-8 text-tech-accent" />,
@@ -34,20 +34,13 @@ const AboutSection = () => {
           {/* About Text */}
           <div className="animate-slide-in">
             <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-              I'm a detail-oriented software developer with 2 years of experience in creating 
-              innovative solutions that make a real difference. My journey in tech has been 
-              driven by a passion for automation and backend development.
+              I’m a passionate software developer with 2 years of experience in creating innovative solutions that make a real difference. My journey in tech has been driven by a love for automation and backend development.
             </p>
             <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-              I specialize in Python, SQL, and PowerShell, with a proven track record of 
-              building efficient systems that streamline processes and deliver tangible 
-              results. Whether it's reducing manual efforts by 40% through automation or 
-              developing comprehensive web applications, I focus on creating software 
-              solutions that truly impact businesses.
+              Over the past two years, I’ve worked on numerous impactful use cases that helped streamline operations and improve efficiency. I’ve also built several projects using technologies like Python, SQL and Django, which strengthened my problem-solving abilities and creativity. Along the way, I’ve developed strong communication and collaboration skills, enabling me to work effectively with teams and deliver results that align with business needs.
             </p>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Currently based in Pune, I'm always excited to take on new challenges and 
-              collaborate with teams to bring innovative ideas to life.
+              Currently based in Pune, I’m excited to take on new challenges while expanding my expertise in AI and Machine Learning. My focus is on growing into this field and applying intelligent solutions to solve real-world problems.
             </p>
           </div>
 

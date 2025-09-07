@@ -7,25 +7,25 @@ const SkillsSection = () => {
     {
       title: "Programming Languages",
       icon: <Code className="h-6 w-6" />,
-      skills: ["Python", "Java", "SQL", "PowerShell"],
+      skills: ["Python", "Java", "SQL"],
       color: "primary"
     },
     {
       title: "Web Technologies",
       icon: <Globe className="h-6 w-6" />,
-      skills: ["HTML", "CSS", "Django", "Bootstrap", "JavaScript"],
+      skills: ["HTML", "CSS", "Bootstrap", "JavaScript"],
       color: "tech-accent"
     },
     {
       title: "Frameworks & Libraries",
       icon: <Database className="h-6 w-6" />,
-      skills: ["Pandas", "NumPy", "Requests", "JSON", "BeautifulSoup", "Spring Boot"],
+      skills: ["Pandas", "NumPy", "Django", "Requests", "JSON", "BeautifulSoup", "Spring Boot"],
       color: "primary"
     },
     {
       title: "Tools & Technologies",
       icon: <Settings className="h-6 w-6" />,
-      skills: ["MySQL", "Git", "Postman", "RESTful APIs"],
+      skills: ["MySQL", , "PowerShell", "Git", "Postman", "ServiceNow", "RESTful APIs", "Docker"],
       color: "tech-accent"
     },
     {
@@ -37,7 +37,7 @@ const SkillsSection = () => {
     {
       title: "Soft Skills",
       icon: <Lightbulb className="h-6 w-6" />,
-      skills: ["Problem-solving", "Communication", "Collaboration", "Client Demos"],
+      skills: ["Problem-solving", "Communication", "Collaboration", "Presentation Skills"],
       color: "tech-accent"
     }
   ];
@@ -99,20 +99,20 @@ const SkillsSection = () => {
           <Card className="border-0 shadow-lg bg-gradient-to-r from-primary/5 to-tech-accent/5">
             <CardContent className="p-8 text-center">
               <h3 className="text-2xl font-bold text-foreground mb-4">
-                Professional Highlights
-              </h3>
+                Key Achievements
+              </h3> 
               <div className="grid md:grid-cols-3 gap-8">
                 <div>
-                  <div className="text-3xl font-bold text-primary mb-2">40%</div>
-                  <div className="text-muted-foreground">Reduction in Manual Efforts</div>
+                  <div className="text-3xl font-bold text-primary mb-2">500+</div>
+                  <div className="text-muted-foreground">Data Structures & Algorithms Problems Solved</div>
                 </div>
                 <div>
-                  <div className="text-3xl font-bold text-tech-accent mb-2">35%</div>
-                  <div className="text-muted-foreground">Faster Response Times</div>
+                  <div className="text-3xl font-bold text-tech-accent mb-2">55%</div>
+                  <div className="text-muted-foreground">Reduction in Manual Tasks through Automation of Multiple Use Cases</div>
                 </div>
                 <div>
-                  <div className="text-3xl font-bold text-primary mb-2">2+</div>
-                  <div className="text-muted-foreground">Years of Experience</div>
+                  <div className="text-3xl font-bold text-primary mb-2">1<sup>st</sup> Prize</div>
+                  <div className="text-muted-foreground">CodingGo Competition (College Level)</div>
                 </div>
               </div>
             </CardContent>

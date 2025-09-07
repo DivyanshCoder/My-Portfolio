@@ -36,7 +36,7 @@ const HeroSection = () => {
             Divyansh Patni
           </h1>
           <h2 className="text-2xl md:text-3xl font-light text-white/90 mb-8">
-            Software Developer
+            Software Developer @TCS
           </h2>
           <p className="text-xl md:text-2xl text-white/80 mb-12 max-w-3xl mx-auto leading-relaxed">
             Detail-oriented developer specializing in automation and backend systems, 

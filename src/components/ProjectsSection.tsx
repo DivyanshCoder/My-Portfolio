@@ -6,9 +6,9 @@ import { ExternalLink, Github } from "lucide-react";
 const ProjectsSection = () => {
   const projects = [
     {
-      title: "News Media Application",
+      title: "NewsMedia App",
       description: "Dynamic news application showing live news under 60 words. Integrated external APIs with ORM support, featuring user engagement through likes/comments and category-based exploration including Cricket, Politics, and Technology.",
-      technologies: ["Python", "Django", "MySQL", "REST APIs", "HTML", "CSS"],
+      technologies: ["Python", "Django", "ORM", "MySQL", "REST APIs", "HTML", "CSS", "JavaScript"],
       features: [
         "Live news integration with external APIs",
         "User engagement system (likes/comments)",
@@ -27,6 +27,18 @@ const ProjectsSection = () => {
         "Authentication system",
         "Drag-and-drop interface",
         "70% reduction in manual effort"
+      ]
+    },
+    {
+      title: "WeatherApp",
+      description: "🌤️Responsive Django web app that shows real-time weather for any city, with dynamic city-themed backgrounds, smart caching, and Bootstrap UI.",
+      technologies: ["Python", "Django", "MySQL", "HTML", "CSS", "OpenWeatherMap API", "Bootstrap", "Caching"],
+      features: [
+        "Real-time weather data for any city worldwide",
+        "Dynamic city backgrounds that change based on search",
+        "Instant search with loading indicators",
+        "Glassmorphism UI with smooth animations",
+        "Responsive design using Bootstrap and modern CSS"
       ]
     }
   ];
@@ -89,14 +101,16 @@ const ProjectsSection = () => {
                 </div>
 
                 <div className="flex gap-4 pt-4">
-                  <Button 
-                    variant="outline" 
+                  <a href="https://github.com/DivyanshCoder" target="_blank" rel="noopener noreferrer">
+                  <Button
+                    variant="outline"
                     size="sm"
                     className="flex items-center gap-2 hover:bg-primary hover:text-primary-foreground"
                   >
-                    <Github className="h-4 w-4" />
+                    <Github className="h-4 w-4"/>
                     View Code
                   </Button>
+                  </a>
                 </div>
               </CardContent>
             </Card>

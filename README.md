@@ -6,7 +6,7 @@ A modern, responsive personal portfolio website showcasing my skills, projects, 
 
 ## 🚀 Live Demo
 
-
+https://divyanshdev-portfolio.netlify.app/
 
 ----
 

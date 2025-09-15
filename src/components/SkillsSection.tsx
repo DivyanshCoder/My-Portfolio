@@ -19,7 +19,7 @@ const SkillsSection = () => {
     {
       title: "Frameworks & Libraries",
       icon: <Database className="h-6 w-6" />,
-      skills: ["Pandas", "NumPy", "Django", "Requests", "JSON", "BeautifulSoup", "Spring Boot"],
+      skills: ["Pandas", "NumPy", "Django", "NLP", "JSON", "BeautifulSoup", "Spring Boot", "Regex", "GenAI"],
       color: "primary"
     },
     {

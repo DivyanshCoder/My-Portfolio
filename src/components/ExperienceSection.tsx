@@ -15,7 +15,7 @@ const ExperienceSection = () => {
         "Automated ServiceNow ticket handling with REST API integration (reduced response time by 45%)",
         "Worked closely with teams across functions and presented impactful demos to clients, ensuring alignment with their needs"
       ],
-      skills: ["Python", "SQL", "PowerShell", "Pandas", "Numpy", "Django", "REST APIs", "HTML", "CSS", "Agile",  "Process Automation"]
+      skills: ["Python", "SQL", "PowerShell", "Pandas", "Numpy", "Django", "REST APIs", "HTML", "CSS", "Agile",  "Process Automation", "NLP", "Client Communication", "Cross-functional Collaboration"]
     },
     {
       title: "Software Developer Intern",

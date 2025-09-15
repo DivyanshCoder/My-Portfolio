@@ -6,27 +6,15 @@ import { ExternalLink, Github } from "lucide-react";
 const ProjectsSection = () => {
   const projects = [
     {
-      title: "NewsMedia App",
-      description: "Dynamic news application showing live news under 60 words. Integrated external APIs with ORM support, featuring user engagement through likes/comments and category-based exploration including Cricket, Politics, and Technology.",
-      technologies: ["Python", "Django", "ORM", "MySQL", "REST APIs", "HTML", "CSS", "JavaScript"],
+      title: "AI-powered Resume Analyzer",
+      description: "🤖A resume analyzer that assesses how closely your resume aligns with a job description, verifies ATS compatibility, and pinpoints missing keywords or skills. It provides actionable tips to refine formatting, enhance readability, and increase your chances of getting shortlisted.",
+      technologies: ["Python", "Django", "NLP", "Generative AI Integration", "SQLite", "PyPDF2", "Bootstrap", "Regex", "Supabase"],
       features: [
-        "Live news integration with external APIs",
-        "User engagement system (likes/comments)",
-        "Category-based news exploration",
-        "Responsive design",
-        "ORM integration"
-      ]
-    },
-    {
-      title: "Portfolio Builder Web App",
-      description: "No-code platform helping users create professional portfolio websites. Features template selection, custom profiles, and authentication system. Successfully reduced manual effort in portfolio creation by 70%.",
-      technologies: ["Python", "Django", "MySQL", "HTML", "CSS", "JavaScript", "Bootstrap"],
-      features: [
-        "Template-based portfolio creation",
-        "Custom user profiles",
-        "Authentication system",
-        "Drag-and-drop interface",
-        "70% reduction in manual effort"
+        "Aligns resumes with job descriptions for smart matching.",
+        "Identifies and categorizes key skills automatically",
+        "Downloadable insights and skill reports for offline use",
+        "Supports PDF/DOCX with automatic resume extraction",
+        "Bulk analysis and quick candidate evaluation"
       ]
     },
     {
@@ -40,12 +28,24 @@ const ProjectsSection = () => {
         "Glassmorphism UI with smooth animations",
         "Responsive design using Bootstrap and modern CSS"
       ]
-    }
+    },
+    {
+      title: "NewsMedia App",
+      description: "📰Dynamic news application showing live news under 60 words. Integrated external APIs with ORM support, featuring user engagement through likes/comments and category-based exploration including Cricket, Politics, and Technology.",
+      technologies: ["Python", "Django", "ORM", "MySQL", "REST APIs", "HTML", "CSS", "JavaScript"],
+      features: [
+        "Live news integration with external APIs",
+        "User engagement system (likes/comments)",
+        "Category-based news exploration",
+        "Responsive design",
+        "ORM integration"
+      ]
+    },
   ];
 
   return (
     <section id="projects" className="py-20 bg-section-bg">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-6xl mx-auto px-2 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
             Featured Projects

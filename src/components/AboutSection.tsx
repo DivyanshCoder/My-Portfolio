@@ -34,7 +34,7 @@ const AboutSection = () => {
           {/* About Text */}
           <div className="animate-slide-in">
             <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-              I’m a passionate software developer with 2 years of experience in creating innovative solutions that make a real difference. My journey in tech has been driven by a love for automation and backend development.
+              I’m a passionate Software Developer with 2+ years of experience in creating innovative solutions that make a real difference. My journey in tech has been driven by a love for automation and backend development.
             </p>
             <p className="text-lg text-muted-foreground leading-relaxed mb-6">
               Over the past two years, I’ve worked on numerous impactful use cases that helped streamline operations and improve efficiency. I’ve also built several projects using technologies like Python, SQL and Django, which strengthened my problem-solving abilities and creativity. Along the way, I’ve developed strong communication and collaboration skills, enabling me to work effectively with teams and deliver results that align with business needs.

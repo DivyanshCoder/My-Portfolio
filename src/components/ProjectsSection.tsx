@@ -41,6 +41,18 @@ const ProjectsSection = () => {
         "ORM integration"
       ]
     },
+    {
+      title: "Spotify Music Discovery Backend",
+      description: "🎸Spotify Music Discovery Backend is a scalable, production-ready REST API service that delivers personalized music recommendations to users. Built with modern backend technologies, this project demonstrates enterprise-level architecture with asynchronous task processing, intelligent caching, user authentication, and comprehensive analytics.",
+      technologies: ["Python", "Django", "PostgreSQL", "Celery", "djangorestframework-simplejwt", "Docker", "Spotify Web API", "Redis"],
+      features: [
+        "Fetch personalized recommendations using Spotify Web API",
+        "Redis-powered caching for optimized performance",
+        "Rate Limiting protecting endpoints with configurable throttling",
+        "Identify trending genres and artists across users",
+        "Periodic recommendation updates every 6 hours"
+      ]
+    },
   ];
 
   return (

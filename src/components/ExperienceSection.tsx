@@ -5,7 +5,7 @@ import { Building, Calendar, MapPin } from "lucide-react";
 const ExperienceSection = () => {
   const experiences = [
     {
-      title: "Software Developer",
+      title: "System Engineer",
       company: "TCS",
       period: "Dec 2023 – Present",
       location: "Pune",

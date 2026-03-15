@@ -40,7 +40,7 @@ const AboutSection = () => {
               Over the past two years, I’ve worked on numerous impactful use cases that helped streamline operations and improve efficiency. I’ve also built several projects using technologies like Python, SQL and Django, which strengthened my problem-solving abilities and creativity. Along the way, I’ve developed strong communication and collaboration skills, enabling me to work effectively with teams and deliver results that align with business needs.
             </p>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Currently based in Pune, I’m excited to take on new challenges while expanding my expertise in AI and Machine Learning. My focus is on growing into this field and applying intelligent solutions to solve real-world problems.
+              Currently based in Pune, I’m excited to take on new challenges while expanding my expertise in Backend Development & Machine learning. My focus is on growing into this field and applying intelligent solutions to solve real-world problems.
             </p>
           </div>
 

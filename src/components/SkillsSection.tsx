@@ -19,13 +19,13 @@ const SkillsSection = () => {
     {
       title: "Frameworks & Libraries",
       icon: <Database className="h-6 w-6" />,
-      skills: ["Pandas", "NumPy", "Django", "NLP", "JSON", "BeautifulSoup", "Django REST framework", "Regex", "GenAI"],
+      skills: ["Django", "Pandas", "NumPy", "ORM", "BeautifulSoup", "Django REST framework", "GenAI"],
       color: "primary"
     },
     {
       title: "Tools & Technologies",
       icon: <Settings className="h-6 w-6" />,
-      skills: ["MySQL", , "PowerShell", "Git", "Postman", "ServiceNow", "RESTful APIs", "Docker"],
+      skills: ["MySQL", , "PowerShell", "Git", "Postman", "ServiceNow", "Celery", "Docker", "Redis"],
       color: "tech-accent"
     },
     {

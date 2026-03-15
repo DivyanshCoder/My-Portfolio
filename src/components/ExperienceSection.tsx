@@ -10,12 +10,12 @@ const ExperienceSection = () => {
       period: "Dec 2023 – Present",
       location: "Pune",
       achievements: [
-        "Implemented automation with Python, SQL, PowerShell (reduced manual efforts by 55%)",
-        "Developed Django-based web application with chatbot for Tata Motors, streamlining operations",
-        "Automated ServiceNow ticket handling with REST API integration (reduced response time by 45%)",
+        "Built and optimized backend services, database operations, and API integrations to support scalable and reliable workflow automation.",
+        "Developed and maintained a Django-based web application with an integrated chatbot for a Tata Motors project, enabling seamless user interaction and efficient handling of high-volume service requests.",
+        "Built and optimized backend services, database operations, and API integrations to support scalable and reliable workflow automation.",
         "Worked closely with teams across functions and presented impactful demos to clients, ensuring alignment with their needs"
       ],
-      skills: ["Python", "SQL", "PowerShell", "Pandas", "Numpy", "Django", "REST APIs", "HTML", "CSS", "Agile",  "Process Automation", "NLP", "Client Communication", "Cross-functional Collaboration"]
+      skills: ["Python", "SQL", "PowerShell", "Pandas", "Numpy", "Django", "REST APIs", "HTML", "CSS", "Redis",  "Process Automation", "NLP", "Celery", "Cross-functional Collaboration"]
     },
     {
       title: "Software Developer Intern",

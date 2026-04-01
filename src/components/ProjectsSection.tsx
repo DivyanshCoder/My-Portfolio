@@ -20,7 +20,7 @@ const ProjectsSection = () => {
     {
       title: "WeatherApp",
       description: "🌤️Responsive Django web app that shows real-time weather for any city, with dynamic city-themed backgrounds, smart caching, and Bootstrap UI.",
-      technologies: ["Python", "Django", "MySQL", "HTML", "CSS", "OpenWeatherMap API", "Bootstrap", "Caching"],
+      technologies: ["Python", "Django", "FastAPI", "MySQL", "HTML", "CSS", "OpenWeatherMap API", "Bootstrap", "Caching"],
       features: [
         "Real-time weather data for any city worldwide",
         "Dynamic city backgrounds that change based on search",
@@ -44,7 +44,7 @@ const ProjectsSection = () => {
     {
       title: "Spotify Music Discovery Backend",
       description: "🎸Spotify Music Discovery Backend is a scalable, production-ready REST API service that delivers personalized music recommendations to users. Built with modern backend technologies, this project demonstrates enterprise-level architecture with asynchronous task processing, intelligent caching, user authentication, and comprehensive analytics.",
-      technologies: ["Python", "Django", "PostgreSQL", "Celery", "djangorestframework-simplejwt", "Docker", "Spotify Web API", "Redis"],
+      technologies: ["Python", "Django", "FastAPI", "PostgreSQL", "Celery", "djangorestframework-simplejwt", "Docker", "Spotify Web API", "Redis"],
       features: [
         "Fetch personalized recommendations using Spotify Web API",
         "Redis-powered caching for optimized performance",

@@ -15,7 +15,7 @@ const ExperienceSection = () => {
         "Built and optimized backend services, database operations, and API integrations to support scalable and reliable workflow automation.",
         "Worked closely with teams across functions and presented impactful demos to clients, ensuring alignment with their needs"
       ],
-      skills: ["Python", "SQL", "PowerShell", "Pandas", "Numpy", "Django", "REST APIs", "HTML", "CSS", "Redis",  "Process Automation", "NLP", "Celery", "Cross-functional Collaboration"]
+      skills: ["Python", "Django", "FastAPI", "SQL", "Pandas", "Numpy", "HTML", "CSS", "Redis",  "Process Automation", "NLP", "Celery", "Powershell"]
     },
     {
       title: "Software Developer Intern",
